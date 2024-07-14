@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Welcome</h1>
+    <button id="studentButton">Student</button>
+    <button id="facultyButton">Faculty</button>
+
+    <div id="formContainer"></div>
+
+    <script>
+        document.getElementById('studentButton').addEventListener('click', async () => {
+            const response = await fetch('/studentform');
+            const formHtml = await response.text();
+            document.getElementById('formContainer').innerHTML = formHtml;
+        });
+
+        document.getElementById('facultyButton').addEventListener('click', async () => {
+            const response = await fetch('/facultyform');
+            const formHtml = await response.text();
+            document.getElementById('formContainer').innerHTML = formHtml;
+        });
+    </script>
+</body>
+
+</html>

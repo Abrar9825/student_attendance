@@ -22,7 +22,6 @@
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Deployment:** AWS EC2
 
 ## 📦 Getting Started
 
@@ -30,12 +29,12 @@ Follow these steps to get a local copy up and running:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your_username/your_project.git
+   git clone https://github.com/Abrar9825/student_attendance.git
    ```
 
 2. **Navigate into the project directory:**
    ```bash
-   cd your_project
+   cd student_attendance
    ```
 
 3. **Install dependencies:**

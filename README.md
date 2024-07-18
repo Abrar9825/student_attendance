@@ -72,6 +72,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Your Name - [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7218948844015742977/)
+Abrar Shaikh - [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7218948844015742977/)
 
 Project Link: [github](https://github.com/Abrar9825/student_attendance.git)
